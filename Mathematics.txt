@@ -6,6 +6,8 @@ Math operations:
 /    : for divides
 ( and ): control order of operations
 
+Exercises:
+
 299792458 m/s
 1 metro = 100 centímetro
 1 nanossegundo = 1/1000000000 segundo

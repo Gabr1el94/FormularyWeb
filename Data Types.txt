@@ -12,3 +12,51 @@ ex:
 
   [string].replace([old],[new]);
   //Mudar conteúdo velho para novo.
+
+Values Booleans:
+
+Truthy{
+	true,
+	non-zero numbers,
+	"Strings",
+	Objects,
+	arrays,
+	Functions
+}
+
+Falsy{
+	false,
+	0,
+	"",
+	undefined,
+	null,
+	NaN
+}
+
+
+
+Exercises:
+
+Usando um método string e converta "audacity" em "Udacity".
+dicas -> Function; Slice;
+
+Result:
+
+var s = "audacity";
+var udacityizer = function(s){
+	if(s==="audacity"){
+		s = s[1].toUpperCase()+s.slice(2);
+	}
+   return s;
+}
+
+console.log(udacityizer(s));
+-----------------------------------------------------------
+Value              | Truthy?            | Truthy?
+
+1				   |	v				|
+"Awesome"		   |	v				|
+undefined		   |					| v
+-42				   |    v 				|
+{"state":false}	   |	v				|
+[false]			   |   	v				| 
