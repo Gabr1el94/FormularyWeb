@@ -1,0 +1,14 @@
+Variables
+
+Introduction sintax
+
+var - declaration generic(text/number/boolean).
+
+ex:
+  var name = "Gabriel";
+  var age = "32";
+
+  $("id-Html").append(aparecer o conteúdo na página);
+
+  [string].replace([old],[new]);
+  //Mudar conteúdo velho para novo.
